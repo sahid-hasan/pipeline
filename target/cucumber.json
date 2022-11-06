@@ -1,0 +1,889 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-06T17:23:08.599Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5640520100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with valid email and password",
+        "description": "",
+        "id": "login;login-with-valid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 182919200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47413000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i am at TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.login_stepDef.iAmAtTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108954400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i enter my valid email address",
+            "match": {
+              "location": "stepDef.login_stepDef.iEnterMyValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82770300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i enter my valid password",
+            "match": {
+              "location": "stepDef.login_stepDef.iEnterMyValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63103800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on \"Log In\" button from Sign in page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Log In\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDef.login_stepDef.iClickOnButtonFromSignInPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 610442100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i should be able to successfully login",
+            "match": {
+              "location": "stepDef.profile_stepDef.iShouldBeAbleToSuccessfullyLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-06T17:23:15.368Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1603946600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with invalid email and valid password",
+        "description": "",
+        "id": "login;login-with-invalid-email-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 116209000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5978800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i am at TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.login_stepDef.iAmAtTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 98955800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i enter my invalid email address",
+            "match": {
+              "location": "stepDef.login_stepDef.iEnterMyInvalidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57595400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i enter my valid password",
+            "match": {
+              "location": "stepDef.login_stepDef.iEnterMyValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100330300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "i click on Login button",
+            "match": {
+              "location": "stepDef.login_stepDef.iClickOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149473400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i should not be able to successfully login",
+            "match": {
+              "location": "stepDef.login_stepDef.iShouldNotBeAbleToSuccessfullyLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-06T17:23:17.510Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1636444600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login with valid email and invalid password",
+        "description": "",
+        "id": "login;login-with-valid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 125642700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6687200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i am at TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.login_stepDef.iAmAtTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89398000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i enter my valid email address",
+            "match": {
+              "location": "stepDef.login_stepDef.iEnterMyValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66682600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i enter my invalid password",
+            "match": {
+              "location": "stepDef.login_stepDef.iEnterMyInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78775900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i click on Login button",
+            "match": {
+              "location": "stepDef.login_stepDef.iClickOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 352118500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "i should not be able to successfully login",
+            "match": {
+              "location": "stepDef.login_stepDef.iShouldNotBeAbleToSuccessfullyLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6916600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i am at TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.login_stepDef.iAmAtTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-06T17:23:19.871Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1615631700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Create a brand new user",
+        "description": "",
+        "id": "signup;create-a-brand-new-user",
+        "after": [
+          {
+            "result": {
+              "duration": 117661100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 261945400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on \"Create new account\" button from signup page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create new account\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDef.login_stepDef.iClickOnButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213709200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i enter unique email address during signup",
+            "match": {
+              "location": "stepDef.signup_stepDef.iEnterUniqueEmailAddressDuringSignup()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6892600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i am at TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.login_stepDef.iAmAtTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-06T17:23:22.092Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1700620100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Create a brand new user",
+        "description": "",
+        "id": "signup;create-a-brand-new-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 143584200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 258491000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i click on \"Create new account\" button from signup page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create new account\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDef.login_stepDef.iClickOnButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77806400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i enter unique First Name \"razib\" during signup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"razib\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDef.signup_stepDef.iEnterUniqueFirstNameDuringSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102531200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i enter unique Last Name \"ahmed\" during signup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahmed\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDef.signup_stepDef.iEnterUniqueLastNameDuringSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4989600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i am at TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.login_stepDef.iAmAtTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-06T17:23:24.390Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1630013700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Create a brand new user",
+        "description": "",
+        "id": "signup;create-a-brand-new-user;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 147041300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 267665200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i click on \"Create new account\" button from signup page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create new account\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDef.login_stepDef.iClickOnButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66656500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i enter unique First Name \"sakib\" during signup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sakib\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDef.signup_stepDef.iEnterUniqueFirstNameDuringSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81406500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i enter unique Last Name \"khan\" during signup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"khan\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDef.signup_stepDef.iEnterUniqueLastNameDuringSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9981100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i am at TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.login_stepDef.iAmAtTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-06T17:23:26.594Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1721902400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Create a brand new user",
+        "description": "",
+        "id": "signup;create-a-brand-new-user;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 127037100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 258300600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i click on \"Create new account\" button from signup page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create new account\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDef.login_stepDef.iClickOnButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76789800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i enter unique First Name \"puja\" during signup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"puja\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDef.signup_stepDef.iEnterUniqueFirstNameDuringSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88278300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i enter unique Last Name \"chery\" during signup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chery\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDef.signup_stepDef.iEnterUniqueLastNameDuringSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6420500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i am at TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.login_stepDef.iAmAtTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-06T17:23:28.884Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1627578000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Create a brand new user",
+        "description": "",
+        "id": "signup;create-a-brand-new-user;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 138455300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 253141400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i click on \"Create new account\" button from signup page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create new account\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDef.login_stepDef.iClickOnButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78449400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i enter unique First Name \"sarkar\" during signup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sarkar\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDef.signup_stepDef.iEnterUniqueFirstNameDuringSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79547200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i enter unique Last Name \"vai\" during signup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vai\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDef.signup_stepDef.iEnterUniqueLastNameDuringSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Signup",
+    "description": "",
+    "id": "signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/signup.feature",
+    "tags": []
+  }
+]
